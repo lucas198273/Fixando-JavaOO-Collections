@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Loja Virtual</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+
+
+
+        /* Definição das cores principais */
+:root {
+    --cor-primaria: #a02b99; /* Verde */
+    --cor-secundaria: #3ce780; /* Vermelho */
+}
+
+/* Estilização do body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image: linear-gradient(to right, #2ecc71, #e74c3c);
+    background-size: 200% 100%;
+    animation: neonLights 2s linear infinite;
+}
+
+
+
+/* Estilização do header */
+header {
+    background-color: var(--cor-primaria);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilização do título do header */
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Estilização da navegação no header */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilização da seção de produtos */
+section {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+
+/* Estilização da área de produtos */
+
+}
+
+/* Estilização dos itens de produtos */
+
+.product-item {
+        max-width: 400px;
+        background-color: #1f1c1c;
+        padding: 24px;
+        flex-basis: calc(33.33% - 16px);
+       /* Define a largura dos elementos como 33.33% do espaço disponível, subtraindo a margem horizontal de 16px */
+       display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 24px;
+            padding: 0 24px;
+          
+            align-content: space-between;
+            position: relative; 
+       margin-bottom: 40px;
+       border-radius: 10%;
+       overflow: hidden;
+       border: 7px solid rgb(59, 80, 59);
+       max-height: 800px;
+      flex-shrink: 0; /* Impede a diminuição do tamanho dos itens */
+      margin-right: 16px; /* Adiciona margem direita para espaçamento */
+      transition:  0.25s;
+      transform: scale(00.25s);
+      transition: transform 0.5s ease;
+      
+    }
+    .product-list{
+        display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 24px;
+     padding: 0 24px;
+     flex-wrap:wrap;
+     align-content: space-between;
+     
+     position: relative; /* Para posicionar as setas */
+     
+        
+    }
+
+/* Estilização das imagens dos produtos */
+.product-image {
+    border-radius: 15%;
+    width: 100%;
+}
+
+/* Estilização dos títulos dos produtos */
+.product-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Estilização das descrições dos produtos */
+.product-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilização dos preços dos produtos */
+.product-price {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilização dos botões de compra dos produtos */
+.product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover nos botões de compra dos produtos */
+.product-button:hover {
+    background-color: #c0392b; /* Tom mais escuro do vermelho complementar */
+}
+.fundopg{
+    text-align: center;
+        padding: 100px;
+    }
+    
+    
+        
+    
+    @keyframes neonLights {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+    </style>
+</head>
+<body >
+    <header>
+        <h1>Bem-vindo à Minha Loja Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Carrinho</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <header >
+           <div  >
+            <div>
+             <h2>Produtos em Destaque</h2>
+             <div class="product-list" >
+                
+                <div class="product-item">
+                    <img src="css.jogos.jpg" alt="Computadores" class="product-image" style="border-radius: 15%; width: 100%;">
+                    <h3 class="product-title">Livros</h3>
+                    <p class="product-description">Clique aqui para ver nossa seleção de computadores</p>
+                    <a href="computadores.html" class="product-button">Ir para Computadores</a>
+                </div>
+                <div class="product-item" style="overflow: hidden; word-wrap: break-word; white-space: nowrap;">
+                    <img src="jogos2.jpg" alt="Computadores" class="product-image" style="border-radius: 15%; width: 100%;">
+                    <h3 class="product-title">Jogos</h3>
+                    <p class="product-description">Clique aqui para ver nossa seleção de computadores</p>
+                    <a href="computadores.html" class="product-button">Ir para Computadores</a>
+                </div>
+                <div class="product-item" style="overflow: hidden; word-wrap: break-word; white-space: nowrap;">
+                    <img src="pcGame.jpg" alt="Computadores" class="product-image" style="border-radius: 15%; width: 100%;">
+                    <h3 class="product-title">Computadores</h3>
+                    <p class="product-description">Clique aqui para ver nossa seleção de computadores</p>
+                    <a href="computadores.html" class="product-button">Ir para Computadores</a>
+                </div>
+                <div class="product-item" style="overflow: hidden; word-wrap: break-word; white-space: nowrap;">
+                    <img src="acessorios.jpg" alt="Acessórios" class="product-image" style="border-radius: 15%; width: 100%;">
+                    <h3 class="product-title">Acessórios</h3>
+                    <p class="product-description">Clique aqui para ver nossa seleção de acessórios</p>
+                    <a href="acessorios.html" class="product-button">Ir para Acessórios</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    </section>
+
+
+
+    
+    <header>
+        <div class="bannercenter"style="background-image: url('fundoproduto3.jpg'); background-size: cover; background-position: center center; height: 100%; width: 100%; margin: 0 auto; display: flex; flex-direction: column; justify-content: center; align-items: center;word-wrap: break-word; ">
+            <h1 class="title">CyberTech</h1>
+            <h2 class="subtitle">A revolução dos computadores futuristas</h2>
+            <a href="#product-container" class="cta-button" style="position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Confira nossos produtos</a>
+            <h2 class="section-title">Nossos Produtos</h2>
+            
+        </div>
+    </header>

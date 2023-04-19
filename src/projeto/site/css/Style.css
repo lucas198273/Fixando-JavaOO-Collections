@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CyberTech - Venda de Computadores Futuristas</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        background-image: linear-gradient(to right, #00f, #0f0, #f00); /* Adiciona um gradiente de cores ao fundo */
+        background-size: 400% 400%; /* Ajusta o tamanho do gradiente */
+        animation: neonLights 5s linear infinite; /* Adiciona uma animação de luzes neon ao fundo */
+    }
+    
+    .banner {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 100px;
+    }
+    
+    .title {
+        font-size: 48px;
+        margin-top: 0;
+        color: #00f;
+    }
+    
+    .subtitle {
+        font-size: 24px;
+        margin-top: 0;
+        color: #fff;
+    }
+    
+    .cta-button {
+        display: inline-block;
+        background-color: #f00;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 24px;
+        margin-top: 24px;
+        font-size: 18px;
+        border-radius: 4px;
+    }
+    
+    .cta-button:hover {
+        background-color: #c00;
+    }
+    
+    .section-title {
+        font-size: 36px;
+        margin-top: 0;
+        text-align: center;
+        color: #00f;
+    }
+    
+    .product-container {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 24px;
+        padding: 0 24px;
+    }
+    
+    .product-item {
+        max-width: 300px;
+        background-color: #111;
+        padding: 24px;
+        border-radius: 4px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .product-image {
+        max-width: 100%;
+        border-radius: 4px;
+    }
+    
+    .product-title {
+        font-size: 24px;
+        margin-top: 0;
+        color: #00f;
+    }
+    
+    .product-description {
+        font-size: 18px;
+        color: #666;
+        margin-top: 0;
+    }
+    
+    .product-price {
+        font-size: 24px;
+        color: #0f0;
+        margin-top: 12px;
+    }
+    
+    .product-button {
+        display: inline-block;
+        background-color: #00f;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 24px;
+        margin-top: 24px;
+        font-size: 18px;
+        border-radius: 4px;
+    }
+    
+    .product-button:hover {
+        background-color: #c00;
+    }
+    
+    .footer {
+        background-color: #111;
+        padding: 24px;
+        text-align: center;
+    }
+    
+    .footer-text {
+        color: #666;
+        margin-top: 0;
+    }
+    
+    .footer-link {
+        color: #00f;
+        text-decoration: none;
+        margin-top: 12
+
+
+        /////
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            background-image: linear-gradient(to right, #00f, #0f0, #f00); /* Adiciona um gradiente de cores ao fundo */
+            background-size: 400% 400%; /* Ajusta o tamanho do gradiente */
+            animation: neonLights 5s linear infinite; /* Adiciona uma animação de luzes neon ao fundo */
+        }
+        
+        .banner {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+        }
+        
+        .title {
+            font-size: 48px;
+            margin-top: 0;
+            color: #00f;
+        }
+        
+        .subtitle {
+            font-size: 24px;
+            margin-top: 0;
+            color: #fff;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #f00;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 24px;
+            margin-top: 24px;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+        
+        .cta-button:hover {
+            background-color: #c00;
+        }
+        
+        .section-title {
+            font-size: 36px;
+            margin-top: 0;
+            text-align: center;
+            color: #00f;
+        }
+        
+        .product-container {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 24px;
+            padding: 0 24px;
+        }
+        
+        .product-item {
+            max-width: 300px;
+            background-color: #111;
+            padding: 24px;
+            border-radius: 4px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .product-image {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+        
+        .product-title {
+            font-size: 24px;
+            margin-top: 0;
+            color: #00f;
+        }
+        
+        .product-description {
+            font-size: 18px;
+            color: #666;
+            margin-top: 0;
+        }
+        
+        .product-price {
+            font-size: 24px;
+            color: #0f0;
+            margin-top: 12px;
+        }
+        
+        .product-button {
+            display: inline-block;
+            background-color: #00f;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 24px;
+            margin-top: 24px;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+        
+        .product-button:hover {
+            background-color: #c00;
+        }
+        
+        .footer {
+            background-color: #111;
+            padding: 24px;
+            text-align: center;
+        }
+        
+        .footer-text {
+            color: #666;
+            margin-top: 0;
+        }
+        
+        .footer-link {
+            color: #00f;
+            text-decoration: none;
+            margin-top: 12px;
+        }
+        
+        .footer-link:hover {
+            color: #c00;
+        }
+
+        //
+
+
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            background-image: linear-gradient(to right, #00f, #0f0, #f00);
+            /* Adiciona um gradiente de cores ao fundo */
+            background-size: 400% 400%;
+            /* Ajusta o tamanho do gradiente */
+            animation: neonLights 5s linear infinite;
+            /* Adiciona uma animação de luzes neon ao fundo */
+        }
+
+        .banner {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+        }
+
+        .title {
+            font-size: 48px;
+            margin-top: 0;
+            color: #00f;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            margin-top: 0;
+            color: #fff;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #f00;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 24px;
+            margin-top: 24px;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+
+        .cta-button:hover {
+            background-color: #c00;
+        }
+
+        .section-title {
+            font-size: 36px;
+            margin-top: 0;
+            text-align: center;
+            color: #00f;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 24px;
+            padding: 0 24px;
+        }
+
+        .product-item {
+            max-width: 300px;
+            background-color: #111;
+            padding: 24px;
+            border-radius: 4px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .product-image {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .product-title {
+            font-size: 24px;
+            margin-top: 0;
+            color: #00f;
+        }
+
+        .product-description {
+            font-size: 18px;
+            color: #666;
+            margin-top: 0;
+        }
+
+        .product-price {
+            font-size: 24px;
+            color: #0f0;
+            margin-top: 12px;
+        }
+
+        .product-button {
+            display: inline-block;
+            background-color: #00f;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 24px;
+            margin-top: 24px;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+
+        .product-button:hover {
+            background-color: #c00;
+        }
+
+        .footer {
+            background-color: #111;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .footer-text {
+            color: #666;
+            margin-top: 0;
+        }
+
+        .footer-link {
+            color: #00f;
+            text-decoration: none;
+            margin-top: 12;
+        }
