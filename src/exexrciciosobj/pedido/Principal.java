@@ -1,4 +1,4 @@
-package entidades;
+package exexrciciosobj.pedido;
 
 import java.util.ArrayList;
 import java.util.Arrays;

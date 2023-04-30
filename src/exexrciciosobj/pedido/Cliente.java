@@ -1,4 +1,4 @@
-package entidades;
+package exexrciciosobj.pedido;
 
 public class Cliente {
 	

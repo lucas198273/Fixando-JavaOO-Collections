@@ -1,4 +1,4 @@
-package exerciciolist;
+package exexrciciosobj.listexercicio;
 
 public class Funcionario {
 	
@@ -14,7 +14,7 @@ public class Funcionario {
 
 	@Override
 	public String toString() {
-		return "Funcionario [id=" + id + "\nnome=" + nome + ", "+ "salario: "+salario+"]" ;
+		return "Funcionario [id=" + id + "\nnome=" + nome + ", "+ "salario: "+String.format("%.2f", salario)+"]" ;
 	}
 
 	public String getNome() {
