@@ -1,4 +1,4 @@
-package exexrciciosobj.enumeracoes.entidadesenuns;
+package exexrciciosobj.enumeracoes.exercicioum.entidadesenuns;
 
 // ENUMERÇÃO.
 public enum OrderStatus {

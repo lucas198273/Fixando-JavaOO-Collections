@@ -1,10 +1,10 @@
-package exexrciciosobj.enumeracoes.entidades;
+package exexrciciosobj.enumeracoes.exercicioum.entidades;
 
 
 
 import java.util.Date;
 
-import exexrciciosobj.enumeracoes.entidadesenuns.OrderStatus;
+import exexrciciosobj.enumeracoes.exercicioum.entidadesenuns.OrderStatus;
 
 public class Order {
     private Integer id;
