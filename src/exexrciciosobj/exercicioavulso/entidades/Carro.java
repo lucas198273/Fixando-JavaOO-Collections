@@ -1,15 +1,19 @@
 package exexrciciosobj.exercicioavulso.entidades;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Carro {
 
     private String modeloVeiculo;
     private int tabelaFip;
     private String cor;
-
+    
 
     public Carro(){
 
     }
+
     public Carro( String modeloVeiculo, int tabelaFip, String cor){
         this.tabelaFip = tabelaFip;
         this.modeloVeiculo = modeloVeiculo;
@@ -31,6 +35,10 @@ public class Carro {
     }
     public String getCor(){
         return cor;
+    }
+    @Override
+    public String toString() {
+        return "Carro [modeloVeiculo= " + modeloVeiculo + ", tabelaFip=" + tabelaFip + ", cor=" + cor + "]";
     }
 
 

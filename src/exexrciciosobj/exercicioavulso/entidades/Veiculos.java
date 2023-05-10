@@ -4,30 +4,34 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Veiculos {
+
     
-    private Caminhao caminhao ;
     private Carro carro;
 
-    private List<Caminhao> listaVeiculosPesados = new ArrayList<>(); 
-    private List<Carro>listaVeiculosPequenos = new ArrayList<>();
-    
-    public Veiculos(Caminhao caminhao, Carro carro) {
-        this.caminhao = caminhao;
+    private List<Carro> listaCarrosPequenos = new ArrayList<>();
+
+    public Veiculos(){
+
+    }
+    public Veiculos(Carro carro) {
         this.carro = carro;
-     
-    }
-    public Caminhao getCaminhao(){
-        return caminhao;
-    }
-    public void addCaminhao(Caminhao camihao){
-        listaVeiculosPesados.add(camihao);
     }
     public Carro getCarro(){
         return carro;
     }
     public void addCarro(Carro carro){
-        listaVeiculosPequenos.add( carro);
+        listaCarrosPequenos.add(carro);
     }
+    public List<Carro> getListaCarrosPequenos(){
+        return listaCarrosPequenos;
+    }
+    @Override
+    public String toString() {
+        return "Veiculos :   "+  listaCarrosPequenos ;
+    }
+    
+   
+  
 
 
     
