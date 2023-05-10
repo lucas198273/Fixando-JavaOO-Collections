@@ -1,4 +1,4 @@
-package exexrciciosobj.listexercicio;
+package exexrciciosobj.pedido.listexercicio;
 
 import java.util.Scanner;
 

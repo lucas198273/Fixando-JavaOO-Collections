@@ -1,4 +1,4 @@
-package exexrciciosobj.listexercicio;
+package exexrciciosobj.pedido.listexercicio;
  
 
 
