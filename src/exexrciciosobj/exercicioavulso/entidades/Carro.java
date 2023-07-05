@@ -38,7 +38,10 @@ public class Carro {
     }
     @Override
     public String toString() {
-        return "Carro [modeloVeiculo= " + modeloVeiculo + ", tabelaFip=" + tabelaFip + ", cor=" + cor + "]";
+        return "==========================="+
+        "modeloVeiculo:" + modeloVeiculo 
+        + " tabelaFip " + tabelaFip + ", cor: " + cor +
+        "===========================";
     }
 
 

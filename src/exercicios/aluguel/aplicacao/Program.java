@@ -18,7 +18,7 @@ public class Program {
 
         System.out.println("\n\n");
 
-
+        
         Aluguel[] vect = new Aluguel[10];
 
         System.out.println("Quantos Quartos seram alugados? ".toUpperCase());

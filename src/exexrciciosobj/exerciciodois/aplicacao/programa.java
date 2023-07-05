@@ -1,4 +1,4 @@
-package exexrciciosobj.exerciciodois.aplicacao;
+ package exexrciciosobj.exerciciodois.aplicacao;
 
 
 import java.text.DateFormat;

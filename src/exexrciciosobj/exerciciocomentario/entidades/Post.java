@@ -11,7 +11,7 @@ public class Post {
     private String conteudo;
     private Integer likes;
 
-    private List<Comentario> comentarios = new ArrayList<>();
+       
 
 
     public Post(Date momento, String titulo, String conteudo, Integer likes) {
